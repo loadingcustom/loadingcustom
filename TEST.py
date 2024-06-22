@@ -3,7 +3,7 @@ import pyfiglet
 from colorama import Fore, init
 # warna
 red = Fore.LIGHTRED_EX
-green = Fore.LIGHTGREEN_EX
+orange = Fore.LIGHTORANGE_EX
 blue = Fore.LIGHTBLUE_EX
 yellow = Fore.LIGHTYELLOW_EX
 white = Fore.WHITE
@@ -23,9 +23,7 @@ print(f"{red}██████╦╝██║░░░██║╚████�
 print(f"{red}██╔══██╗██║░░░██║░╚═══██╗░╚═══██╗██║██║░░██║")
 print(f"{red}██████╦╝╚██████╔╝██████╔╝██████╔╝██║██████╔╝")
 print(f"{red}╚═════╝░░╚═════╝░╚═════╝░╚═════╝░╚═╝╚═════╝░")
-print(f"{green}Tools Created By : @iSupportSG")
-print(f"{green}Credit : Thanks To All !")
-print(f"{green}Community : @TeamiRaid")
+print(f"{green}SERVER1")
 print(f"{yellow}--------------------------------------------------------------------------------")
 auth = input(f'{red}[{white}#{red}] {red}Enter X-Authorization : {white} ')
 
