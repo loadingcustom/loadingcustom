@@ -3,7 +3,7 @@ import pyfiglet
 from colorama import Fore, init
 # warna
 red = Fore.LIGHTRED_EX
-orange = Fore.LIGHTORANGE_EX
+cyan = Fore.'LIGHTCYAN_EX
 blue = Fore.LIGHTBLUE_EX
 yellow = Fore.LIGHTYELLOW_EX
 white = Fore.WHITE
