@@ -51,7 +51,7 @@ def skip_mission(token):
 			if "apiError" in str(backend_data):
 				pass
 			else:
-				logs = backend_data['tai']
+				logs = backend_data['logs']
 				msg = logs[len(logs)-1]['apa']
 				print(f'[{token}] tes')
 	
