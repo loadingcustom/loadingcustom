@@ -51,9 +51,9 @@ def skip_mission(token):
 			if "apiError" in str(backend_data):
 				pass
 			else:
-				logs = backend_data['Logs']
-				msg = logs[len(logs)-1]['Message']
-				print(f'[{token}] {msg}')
+				logs = backend_data['tai']
+				msg = logs[len(logs)-1]['apa']
+				print(f'[{token}] tes')
 	
 def pass_mission():
 	carrer = create_mission()
@@ -65,7 +65,7 @@ def pass_mission():
 while 1:
 	pass_mission()
 	if counter == 1:
-		counter = 0
+		counter = 1
 		time.sleep(1)
 	else:
 		counter += 1
